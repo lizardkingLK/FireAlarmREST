@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 public class ConnectFA {
 	private static Connection con;
-	private static String connectionURL = "jdbc:mysql://localhost:3306/firealarmdb";
+	private static String connectionURL = "jdbc:mysql://localhost:3306/FireAlarmDB?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
 	private static String user = "root";
 	private static String password = "";
 	static PreparedStatement stmt;
